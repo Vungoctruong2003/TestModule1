@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function giai_phuong_trinh_bac_nhat(a, b) {
+        if (a === 0 && b === 0) {
+            return "Phương trình đã cho có vô số nghiệm"
+        }
+        if (a === 0 && b !== 0) {
+            return "Phương trình đã cho vô nghiệm"
+        }
+        if (a !== 0) {
+            return "Phương trình đã cho có nghiệm là: " + (-b / a)
+        }
+    }
+
+    document.write(giai_phuong_trinh_bac_nhat(5, 8))
+</script>
+
+</body>
+</html>
